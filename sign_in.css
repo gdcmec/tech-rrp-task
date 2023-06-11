@@ -1,0 +1,100 @@
+*{
+    background-color: rgb(13,17,23);
+    color:white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    display: block;
+    width:40px;
+    height:40px;
+
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.sign_in h1{
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.sign_in_pg{
+    background-color: rgb(22,27,34);
+    height:32vh;
+    width:308px;
+    border-radius:12px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    background-color: rgb(22,27,34);
+    margin-left:20px;
+}
+
+input{
+    width:85%;
+    height:20px;
+    margin:2px auto;
+}
+
+.pass{
+    display: flex;
+    background-color: rgb(22,27,34);
+}
+
+a{
+    background-color: rgb(22,27,34);
+    margin-left:107px;
+    margin-top:15px;
+    text-decoration: none;
+    color:rgb(42,121,227);
+
+    font-size:0.9rem;
+}
+
+#login{
+
+    display: block;
+    margin:20px auto;
+
+    background-color: rgb(35,134,54);
+    height:35px;
+    border-radius: 10px;
+
+    width:90%;
+
+    font-size: 1rem;
+}
+
+#login:hover{
+    background-color:#2ea043;
+}
+
+.sign_up{
+    border:1px solid grey;
+    /* idk what the colour of the box */
+    width:22%;
+    height:6vh;
+
+    margin-top:30px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_up a{
+    margin-left:8px;
+    margin-top:2px;
+    font-size: 1rem;
+
+    background-color:rgb(13,17,23) ;
+
+}
