@@ -18,14 +18,14 @@ img{
     margin-bottom:20px;
 }
 
-.sign_in h1{
+.signup h1{
     font-weight: 200;
     font-size: 24px;
 }
 
-.sign_in_pg{
+.signup_box{
     background-color: rgb(22,27,34);
-    height:32vh;
+    height:68vh;
     width:308px;
     border-radius:12px;
 
@@ -44,22 +44,7 @@ input{
     margin:2px auto;
 }
 
-.pass{
-    display: flex;
-    background-color: rgb(22,27,34);
-}
-
-a{
-    background-color: rgb(22,27,34);
-    margin-left:107px;
-    margin-top:15px;
-    text-decoration: none;
-    color:rgb(42,121,227);
-
-    font-size:0.9rem;
-}
-
-#login{
+button{
 
     display: block;
     margin:20px auto;
@@ -73,11 +58,11 @@ a{
     font-size: 1rem;
 }
 
-#login:hover{
+button:hover{
     background-color:#2ea043;
 }
 
-.sign_up{
+.login{
     border:1px solid grey;
     /* idk what the colour of the box */
     width:22%;
@@ -90,11 +75,8 @@ a{
     justify-content: center;
 }
 
-.sign_up a{
-    margin-left:8px;
-    margin-top:2px;
-    font-size: 1rem;
-
-    background-color:rgb(13,17,23) ;
-
+a{
+    text-decoration: none;
+    margin-left:10px;
+    color:rgb(42,121,227);
 }
